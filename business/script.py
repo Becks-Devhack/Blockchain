@@ -3,7 +3,7 @@ import requests
 import json
 
 app = Flask(__name__)
-miner_endpoint = "http://localhost:3001"
+miner_endpoint = "http://node1:3001"
 
 @app.route("/all_vacantions", methods=["GET"])
 def get_all_vacantions():
